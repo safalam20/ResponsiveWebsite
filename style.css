@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins';
+  color: #222;
+}
+#logo{
+  width: 100px;
+  height: auto;
+}
+.navbar{
+  padding: .4rem;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 1.1em !important;
+}
+.carousel-inner img{
+  height: 500px;
+  width: 100%;
+  
+}
+.carousel-caption{
+  position: absolute;
+  top: 80%;
+  transform: translateY(-50%);
+}
+.sausage{
+  text-shadow: 1px 1px 10px black;
+  text-transform: uppercase;
+}
+.carousel-caption h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px black;
+}
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 300;
+  text-shadow: 1px 1px 15px black;
+  padding-bottom: 1rem;
+}
+.btn-primary{
+  background-color: #6648b1;
+  border: 1px solid #563d7c;
+}
+.jumbotron{
+  padding: 1rem;
+}
+.padding{
+  padding-bottom: 2rem;
+}
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.fa-shopping-basket{
+  color: green;
+  font-size: 400%;
+  margin: 1rem;
+}
+.fa-shipping-fast{
+  color: blue;
+  font-size: 400%;
+  margin: 1rem;
+}
+.fa-grin-beam{
+  color: gold;
+  font-size: 4em;
+  margin: 1rem;
+}
+.fun{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.gif{
+  max-width: 100%;
+}
+.social a{
+  font-size: 400%;
+  padding: 3rem;
+}
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+footer hr{
+  border-color: #d5d5d5;
+  width: 75%;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+} 
+.copy{
+  padding: 0;
+  margin: 0;
+}
+.fa-youtube{
+  color: red;
+}
+.fa-instagram{
+  color: orchid;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
